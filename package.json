@@ -1,0 +1,10 @@
+{
+  "name": "learning-semantic-release",
+  "version": "1.0.0",
+  "description": "A small project to learn how semantic release works",
+  "main": "index.js",
+  "repository": "https://github.com/odonatojunior/learning-semantic-release",
+  "author": "Donato Jr. <donato.junior.07@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
