@@ -1,10 +1,31 @@
 {
   "name": "learning-semantic-release",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A small project to learn how semantic release works",
   "main": "index.js",
   "repository": "https://github.com/odonatojunior/learning-semantic-release",
   "author": "Donato Jr. <donato.junior.07@gmail.com>",
   "license": "MIT",
-  "private": true
+  "type": "module",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "repositoryUrl": "https://github.com/odonatojunior/learning-semantic-release"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.0.2"
+  }
 }
