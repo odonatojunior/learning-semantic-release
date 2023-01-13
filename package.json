@@ -17,7 +17,10 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ],
-    "repositoryUrl": "https://github.com/odonatojunior/learning-semantic-release"
+    "repositoryUrl": "https://github.com/odonatojunior/learning-semantic-release",
+    "publish": [
+      "@semantic-release/github"
+    ]
   },
   "scripts": {
     "semantic-release": "semantic-release"
